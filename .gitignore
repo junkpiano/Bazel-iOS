@@ -94,4 +94,5 @@ iOSInjectionProject/
 
 Vendor
 *.xcodeproj
-bazel-*
+!bazel-ios.tulsiproj
+bazel-ios.tulsiproj/*.tulsiconf-user

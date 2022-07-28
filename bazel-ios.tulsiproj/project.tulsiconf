@@ -1,0 +1,15 @@
+{
+  "configDefaults" : {
+    "optionSet" : {
+
+    }
+  },
+  "packages" : [
+    "Shared",
+    "Tests-iOS",
+    "Vendor/Alamofire",
+    "Vendor/PINOperation"
+  ],
+  "projectName" : "Bazel-iOS-app",
+  "workspaceRoot" : ".."
+}

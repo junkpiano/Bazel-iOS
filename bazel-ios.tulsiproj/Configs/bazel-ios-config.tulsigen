@@ -1,0 +1,67 @@
+{
+  "additionalFilePaths" : [
+    "Shared/BUILD"
+  ],
+  "buildTargets" : [
+    "//Shared:Bazel-iOS-app",
+    "//Tests-iOS:Bazel-iOS-test"
+  ],
+  "optionSet" : {
+    "BazelBuildOptionsDebug" : {
+      "p" : "$(inherited)"
+    },
+    "BazelBuildOptionsRelease" : {
+      "p" : "$(inherited)"
+    },
+    "BazelBuildStartupOptionsDebug" : {
+      "p" : "$(inherited)"
+    },
+    "BazelBuildStartupOptionsRelease" : {
+      "p" : "$(inherited)"
+    },
+    "BuildActionPostActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "BuildActionPreActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "CommandlineArguments" : {
+      "p" : "$(inherited)"
+    },
+    "EnvironmentVariables" : {
+      "p" : "$(inherited)"
+    },
+    "LaunchActionPostActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "LaunchActionPreActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "ProjectGenerationBazelStartupOptions" : {
+      "p" : "$(inherited)"
+    },
+    "TestActionPostActionScript" : {
+      "p" : "$(inherited)"
+    },
+    "TestActionPreActionScript" : {
+      "p" : "$(inherited)"
+    }
+  },
+  "projectName" : "Bazel-iOS-app",
+  "sourceFilters" : [
+    "Shared",
+    "Tests-iOS",
+    "Vendor",
+    "Vendor/Alamofire",
+    "Vendor/Alamofire/Source",
+    "Vendor/PINOperation",
+    "Vendor/PINOperation/Source",
+    "Vendor/PINOperation/pod_support",
+    "Vendor/PINOperation/pod_support/Headers",
+    "Vendor/PINOperation/pod_support/Headers/Public",
+    "Vendor/PINOperation/pod_support/Headers/Public/PINOperation",
+    "Vendor/PINOperation/pod_support/Headers/Public/PINOperation_cxx",
+    "external/swift_pkgs",
+    "external/swift_pkgs/swift-log"
+  ]
+}
